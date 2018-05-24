@@ -1,0 +1,82 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.intro {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  /* background: url('../img/bbg.jpeg') no-repeat bottom center fixed;
+  min-height: 100%; */
+  /* background-color: black; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+   /* Safari 5.1+, Chrome 10+ */
+  background: linear-gradient(145deg, #541818 0%, #0000008e 100%)
+
+  
+
+}
+
+.intro .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+.intro .intro-body .brand-heading {
+  font-size: 80px;
+  margin-top: -4rem;
+  margin-bottom: 3rem;
+}
+.intro .intro-body .intro-text {
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+  .intro .intro-body .brand-heading {
+    font-size: 40px;
+  }
+  .intro .intro-body .intro-text {
+    font-size: 26px;
+  }
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+
+.na{
+  margin-top:5rem;
+
+}
